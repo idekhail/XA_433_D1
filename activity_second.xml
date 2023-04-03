@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#fff50057">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout2"
+        android:background="#ff000000">
+        <TextView
+            android:text="Second Activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/linearLayout3"
+        android:gravity="center"
+        android:background="#ffb0bec5"
+        android:layout_margin="10dp">
+        <TextView
+            android:text="Show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/show"
+            android:gravity="center"
+            android:background="#ffffffff"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout4"
+        android:background="#ffe0e0e0"
+        android:gravity="center"
+        android:layout_margin="15dp">
+        <Button
+            android:text="Back"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:id="@+id/back"
+            android:backgroundTint="#ff3e2723"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:text="Close"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:id="@+id/close"
+            android:backgroundTint="#ff1b5e20"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
